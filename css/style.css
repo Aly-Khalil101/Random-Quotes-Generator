@@ -1,0 +1,118 @@
+/* Start Global Rules */
+body {
+  background-color: #ddd;
+}
+/* End Global Rules */
+/* Start Header */
+
+.header {
+  position: relative;
+  background-color: white;
+  top: -30px;
+}
+.header h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: system-ui;
+  background-color: white;
+  padding: 35px 0;
+}
+
+/* End Header */
+/* Start Screen Box */
+.screen-box {
+  width: 800px;
+  height: 310px;
+  margin: 50px auto 20px;
+  background-color: white;
+  text-align: center;
+  padding: 0 5px;
+}
+.screen-box .quote-id {
+  position: relative;
+  top: -13px;
+  background-color: #e93030;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 22px;
+  font-family: "FontAwesome";
+}
+.screen-box .quote {
+  position: relative;
+  font-family: system-ui;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  padding: 5px 20px 0px;
+}
+.screen-box .quote p {
+  padding: 10px 0 40px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  height: 100px;
+}
+.screen-box .quote .author {
+  position: absolute;
+  font-size: 18px;
+  bottom: 15px;
+  left: 100px;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: darkslategrey;
+}
+.screen-box .quote p::before,
+.screen-box .quote p::after {
+  position: absolute;
+  top: -15px;
+  color: #ddd;
+  font-size: 22px;
+}
+.screen-box .quote p::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10d";
+  left: 0;
+}
+.screen-box .quote p::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  right: 0;
+}
+.screen-box .btns {
+  font-family: system-ui;
+  margin-top: -15px;
+}
+.screen-box .btns .btn {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.screen-box .btns .btn:hover {
+  font-size: 27px;
+  margin: 0 10px;
+}
+#btn-generate-quote {
+  background-color: #538a53;
+}
+#btn-auto-generate {
+  background-color: #5a5ae7;
+}
+#btn-stop-generate {
+  background-color: #e93030;
+}
+/* End Screen Box */
+.auto-status {
+  text-align: center;
+  font-size: 25px;
+  font-family: "FontAwesome";
+}
